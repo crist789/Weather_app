@@ -201,7 +201,7 @@ class _DashboardPageState extends State<DashboardPage> {
   }
 
   Widget _greeting(WeatherModel data) {
-    final greetin = data.current.isDay ? 'Buenos dias' : 'Buenas noches';
+    final greetin = data.current.isDay ? 'Buen dia' : 'Buenas noches';
     return Row(
       children: [
         Text(
